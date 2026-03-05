@@ -1,14 +1,20 @@
-# Wind Project
+# Stability Penalty Oracle
 
-This project implements an oracle for wind energy forecasting. It includes stability penalties, metrics, and cost calculations.
+## Overview
 
-## Citation
+This package provides tools for modeling and evaluating the stability penalty oracle used in the context of wind energy management.
 
-Datasets used in this project:
-- Zenodo 15846963
-- Zenodo 1475197
+## Structure
+The package includes the following modules:
+- `cost`: Contains functions for calculating cost.
+- `oracle`: Implements the stability penalty oracle logic.
+- `metrics`: Provides metrics for evaluating performance.  
 
 ## Requirements
+To install the required packages, run:
+```
+pip install -r requirements.txt
+```
 
-- Python 3.8+
-- Dependencies listed in `requirements.txt`
+## Running the Notebook
+The Jupyter notebook can be found in the `notebooks` directory and provides an interactive way to explore the oracle's behavior.
