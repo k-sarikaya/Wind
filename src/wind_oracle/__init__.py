@@ -1,3 +1,2 @@
-# Wind Oracle Package
-
-This package contains modules to analyze wind data for the SMARTEOLE project.
+__all__ = ["cost", "oracle", "metrics", "smarteole"]
+__version__ = "0.1.0"
