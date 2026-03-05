@@ -1,9 +1,3 @@
-# Cost module for Wind Oracle
-
-class Cost:
-    def __init__(self, some_parameter):
-        self.parameter = some_parameter
-
-    def calculate_cost(self):
-        # Logic for calculating cost
-        pass
+def cost(k, W, D, k_prev, alpha, gamma, beta, lam):
+    # Function implementation goes here
+    pass
